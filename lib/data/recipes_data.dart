@@ -23,7 +23,12 @@ final List<Recipe> sampleRecipes = [
     name: 'Philly Cheesesteak',
     imagePath: 'assets/images/philly.jpg',
     ingredients: ['Hoagie Roll', 'Shaved Beef', 'Onion', 'Green Bell Pepper', 'Swiss Cheese', 'Spices'],
-    instructions: 'Toss steak with spices and cook to desired doneness. Cook onion and pepper in same pan. Put steak in roll, vegetable mix, then cheese. Toast if desired.',
+    instructions: 'Toss steak with spices and cook to desired doneness, then remove from pan. Cook onion and pepper in same pan. Put steak in roll, vegetables, then cheese. Toast if desired.',
   ),
-  // Add 3+ more recipes…
+  Recipe(
+    name: 'Baked Garlic Parmesan Chicken',
+    imagePath: 'assets/images/chicken.jpg',
+    ingredients: ['Chicken Breast', 'Olive Oil', 'Garlic', 'Parmesan Cheese', 'Bread Crumbs', 'Dried Basil'],
+    instructions: 'Whisk olive oil and garlic together. Combine bread crumbs, cheese, basil, and salt and pepper to taste. Dip chicken breast in oil mixture, then breadcrumb mixture. Bake at 350 for 30 minutes or until chicken is cooked through.'
+  ),
 ];

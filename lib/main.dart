@@ -9,6 +9,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  // App starts on home screen
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
